@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -12301,12 +12302,13 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <wire x1="-63.5" y1="137.16" x2="-63.5" y2="96.52" width="0.1524" layer="95"/>
 <wire x1="-63.5" y1="96.52" x2="-210.82" y2="96.52" width="0.1524" layer="95"/>
 <wire x1="-210.82" y1="96.52" x2="-210.82" y2="137.16" width="0.1524" layer="95"/>
-<text x="63.5" y="119.38" size="1.778" layer="95">3.7v to 5v</text>
+<text x="35.56" y="119.38" size="1.778" layer="95">3.7v to 5v</text>
 <wire x1="-119.38" y1="30.48" x2="15.24" y2="30.48" width="0.1524" layer="95"/>
 <wire x1="15.24" y1="30.48" x2="15.24" y2="55.88" width="0.1524" layer="95"/>
 <wire x1="15.24" y1="55.88" x2="-119.38" y2="55.88" width="0.1524" layer="95"/>
 <wire x1="-119.38" y1="55.88" x2="-119.38" y2="30.48" width="0.1524" layer="95"/>
 <text x="248.92" y="-66.04" size="1.778" layer="91">MS5611 Barometer</text>
+<text x="-210.82" y="137.16" size="2.1844" layer="95">lipo battery charging circuit</text>
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="-20.32" y="7.62">
@@ -12399,40 +12401,40 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <attribute name="MF" x="-111.76" y="-81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-111.76" y="-81.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PAD9" gate="1" x="-35.56" y="-76.2" rot="R90">
-<attribute name="OC_NEWARK" x="-35.56" y="-76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-35.56" y="-76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-35.56" y="-76.2" size="1.778" layer="96" display="off"/>
+<instance part="PAD9" gate="1" x="-40.64" y="-76.2" rot="R90">
+<attribute name="OC_NEWARK" x="-40.64" y="-76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-40.64" y="-76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-40.64" y="-76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PAD10" gate="1" x="-22.86" y="-76.2" rot="R90">
 <attribute name="OC_NEWARK" x="-22.86" y="-76.2" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-22.86" y="-76.2" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-22.86" y="-76.2" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PAD11" gate="1" x="-35.56" y="17.78" rot="R90">
-<attribute name="OC_NEWARK" x="-35.56" y="17.78" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-35.56" y="17.78" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-35.56" y="17.78" size="1.778" layer="96" display="off"/>
+<instance part="PAD11" gate="1" x="-40.64" y="17.78" rot="R90">
+<attribute name="OC_NEWARK" x="-40.64" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-40.64" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-40.64" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PAD12" gate="1" x="-22.86" y="17.78" rot="R90">
 <attribute name="OC_NEWARK" x="-22.86" y="17.78" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-22.86" y="17.78" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-22.86" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PAD13" gate="1" x="-116.84" y="17.78" rot="R90">
-<attribute name="OC_NEWARK" x="-116.84" y="17.78" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-116.84" y="17.78" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-116.84" y="17.78" size="1.778" layer="96" display="off"/>
+<instance part="PAD13" gate="1" x="-121.92" y="17.78" rot="R90">
+<attribute name="OC_NEWARK" x="-121.92" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-121.92" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-121.92" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PAD14" gate="1" x="-104.14" y="17.78" rot="R90">
 <attribute name="OC_NEWARK" x="-104.14" y="17.78" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-104.14" y="17.78" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-104.14" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PAD15" gate="1" x="-116.84" y="-76.2" rot="R90">
-<attribute name="OC_NEWARK" x="-116.84" y="-76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-116.84" y="-76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-116.84" y="-76.2" size="1.778" layer="96" display="off"/>
+<instance part="PAD15" gate="1" x="-121.92" y="-76.2" rot="R90">
+<attribute name="OC_NEWARK" x="-121.92" y="-76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-121.92" y="-76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-121.92" y="-76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PAD16" gate="1" x="-104.14" y="-76.2" rot="R90">
 <attribute name="OC_NEWARK" x="-104.14" y="-76.2" size="1.778" layer="96" display="off"/>
@@ -12538,10 +12540,10 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <attribute name="MF" x="-177.8" y="-27.94" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-177.8" y="-27.94" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PAD19" gate="1" x="-182.88" y="-22.86" rot="R90">
-<attribute name="OC_NEWARK" x="-182.88" y="-22.86" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-182.88" y="-22.86" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-182.88" y="-22.86" size="1.778" layer="96" display="off"/>
+<instance part="PAD19" gate="1" x="-187.96" y="-22.86" rot="R90">
+<attribute name="OC_NEWARK" x="-187.96" y="-22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-187.96" y="-22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-187.96" y="-22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PAD20" gate="1" x="-170.18" y="-22.86" rot="R90">
 <attribute name="OC_NEWARK" x="-170.18" y="-22.86" size="1.778" layer="96" display="off"/>
@@ -12570,10 +12572,10 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <attribute name="MF" x="30.48" y="-30.48" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="30.48" y="-30.48" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PAD23" gate="1" x="25.4" y="-25.4" rot="R90">
-<attribute name="OC_NEWARK" x="25.4" y="-25.4" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="25.4" y="-25.4" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="25.4" y="-25.4" size="1.778" layer="96" display="off"/>
+<instance part="PAD23" gate="1" x="20.32" y="-25.4" rot="R90">
+<attribute name="OC_NEWARK" x="20.32" y="-25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="20.32" y="-25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="20.32" y="-25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PAD24" gate="1" x="38.1" y="-25.4" rot="R90">
 <attribute name="OC_NEWARK" x="38.1" y="-25.4" size="1.778" layer="96" display="off"/>
@@ -12914,35 +12916,35 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <net name="VDD" class="0">
 <segment>
 <pinref part="SUPPLY6" gate="G$1" pin="VDD"/>
-<wire x1="-33.02" y1="20.32" x2="-35.56" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="20.32" x2="-40.64" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="1"/>
-<wire x1="-35.56" y1="20.32" x2="-45.72" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="20.32" x2="-45.72" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="PAD11" gate="1" pin="P"/>
-<junction x="-35.56" y="20.32"/>
+<junction x="-40.64" y="20.32"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="VDD"/>
-<wire x1="-33.02" y1="-73.66" x2="-35.56" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-73.66" x2="-40.64" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="1"/>
-<wire x1="-35.56" y1="-73.66" x2="-45.72" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-73.66" x2="-45.72" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="PAD9" gate="1" pin="P"/>
-<junction x="-35.56" y="-73.66"/>
+<junction x="-40.64" y="-73.66"/>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="G$1" pin="VDD"/>
-<wire x1="-114.3" y1="20.32" x2="-116.84" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="20.32" x2="-121.92" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="1"/>
-<wire x1="-116.84" y1="20.32" x2="-127" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="20.32" x2="-127" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="PAD13" gate="1" pin="P"/>
-<junction x="-116.84" y="20.32"/>
+<junction x="-121.92" y="20.32"/>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="VDD"/>
-<wire x1="-114.3" y1="-73.66" x2="-116.84" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="-73.66" x2="-121.92" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="1"/>
-<wire x1="-116.84" y1="-73.66" x2="-127" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="-73.66" x2="-127" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="PAD15" gate="1" pin="P"/>
-<junction x="-116.84" y="-73.66"/>
+<junction x="-121.92" y="-73.66"/>
 </segment>
 <segment>
 <pinref part="S2" gate="1" pin="P"/>
@@ -12966,19 +12968,19 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="VDD"/>
-<wire x1="-180.34" y1="-20.32" x2="-182.88" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-180.34" y1="-20.32" x2="-187.96" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="1"/>
-<wire x1="-182.88" y1="-20.32" x2="-193.04" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-187.96" y1="-20.32" x2="-193.04" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="PAD19" gate="1" pin="P"/>
-<junction x="-182.88" y="-20.32"/>
+<junction x="-187.96" y="-20.32"/>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="VDD"/>
-<wire x1="27.94" y1="-22.86" x2="25.4" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-22.86" x2="20.32" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="-22.86" x2="15.24" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-22.86" x2="15.24" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="PAD23" gate="1" pin="P"/>
-<junction x="25.4" y="-22.86"/>
+<junction x="20.32" y="-22.86"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -13689,7 +13691,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </drawing>
 <compatibility>
 <note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
+Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>

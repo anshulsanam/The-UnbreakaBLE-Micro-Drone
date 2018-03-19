@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.003125" unitdist="mic" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
@@ -193,6 +194,8 @@
 <wire x1="19.59328125" y1="-2.445359375" x2="19.592803125" y2="-0.886915625" width="0" layer="20"/>
 <wire x1="19.592803125" y1="-0.886915625" x2="17.06438125" y2="-0.888009375" width="0" layer="20"/>
 <text x="-10.1722375" y="-10.0043375" size="1.27" layer="21" font="vector" rot="R90">Designed By Anshul</text>
+<dimension x1="7.686278125" y1="18.1787375" x2="7.715875" y2="-18.18300625" x3="29.3641875" y3="0.015496875" textsize="1.778" layer="1"/>
+<dimension x1="-6.8958625" y1="20.600171875" x2="-6.16703125" y2="-18.242659375" x3="-25.008134375" y3="0.83206875" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="SparkFun-FreqCtrl">
@@ -2053,10 +2056,10 @@ Please make sure your boards conform to these design rules.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -4222,7 +4225,7 @@ Please make sure your boards conform to these design rules.</description>
 </drawing>
 <compatibility>
 <note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
+Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>
